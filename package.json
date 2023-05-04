@@ -1,0 +1,26 @@
+{
+  "name": "make-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "tsx watch ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ejs": "^3.1.2",
+    "@types/express": "^4.17.17",
+    "@types/html-pdf": "^3.0.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "html-pdf": "^3.0.1",
+    "puppeteer": "^19.11.1"
+  }
+}
